@@ -1,0 +1,13 @@
+.header-main {
+  background-color: gray;
+  color: orange;
+  margin: 5px;
+  height: 100px;
+  padding-left: 25px;
+  padding-top: 25px;
+  border-radius: 5px;
+}
+
+.header-h1 {
+  margin: auto;
+}
