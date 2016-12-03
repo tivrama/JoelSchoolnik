@@ -9,7 +9,7 @@ class ProjectsShow extends Component {
   };
 
   componentWillMount() {
-    this.props.fetchProject(this.props.params.id);
+    this.props.fetchProject(this.props.params._id);
   }
 
 

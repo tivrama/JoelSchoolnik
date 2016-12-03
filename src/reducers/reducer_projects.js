@@ -7,7 +7,8 @@ export default function(state = INITIAL_STATE, action) {
   case FETCH_PROJECT:
     return { ...state, project: action.payload.data };
   case FETCH_PROJECTS:
-    return { ...state, all: action.payload.data };
+    return { ...state, all: action.payload };
+    // return { ...state, all: action.payload.data };
   default:
     return state;
   }

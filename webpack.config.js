@@ -19,5 +19,14 @@ module.exports = {
   devServer: {
     historyApiFallback: true,
     contentBase: './'
-  }
+  }//,
+
+
+  // plugins: [
+  //   new webpack.EnvironmentPlugin([
+  //     'NODE_ENV'
+  //   ])
+  // ]
+
+
 };

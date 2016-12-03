@@ -1,6 +1,6 @@
 var mongoose = require('mongoose');
 
-module.exports = mongoose.model('Projects', {
+module.exports = mongoose.model('Project', {
   name : {type : String, default: ''},
   description : {type : String, default: ''},
   details : {type : String, default: ''},
