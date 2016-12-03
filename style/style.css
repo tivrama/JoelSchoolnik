@@ -11,3 +11,43 @@
 .header-h1 {
   margin: auto;
 }
+
+.footer-main {
+  background-color: gray;
+  color: orange;
+  margin-bottom: 5px;
+  height: 100px;
+  padding-left: 25px;
+  padding-top: 15px;
+  border-radius: 5px;
+}
+
+.footer-h1 {
+  margin: auto;
+}
+
+.link-584200057933f00452053e86 {
+  content: url('../assets/img/Gourmand.png');
+  border-radius: 5px;
+  height: 400px;
+}
+.link-584200687933f00452053e87 {
+  content: url('../assets/img/Emordnilap.png');
+  border-radius: 5px;
+  height: 400px;
+}
+.link-584201087933f00452053e88 {
+  content: url('../assets/img/BinaryClock.png');
+  border-radius: 5px;
+  height: 200px;
+}
+.link-584203437933f00452053e89 {
+  content: url('../assets/img/DataStructures.png');
+  border-radius: 5px;
+  height: 400px;
+}
+.link-584237cb62876c07cf22cc68 {
+  content: url('../assets/img/Decider.png');
+  border-radius: 5px;
+  height: 200px;
+}

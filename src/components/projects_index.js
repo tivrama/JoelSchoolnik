@@ -13,9 +13,9 @@ class ProjectsIndex extends Component {
       return (
         <li className="list-group-item" key={post._id}>
           <Link to={"projects/" + post.name}>
+            <span className={ `link-${ post._id }` }></span>
             <span className="pull-xs-right">{post.url}</span>
             <strong>{post.name}</strong>
-            <span src="../../assets/img/favicon.ico"></span>
             <p>{post.description}</p>
           </Link>
         </li>
